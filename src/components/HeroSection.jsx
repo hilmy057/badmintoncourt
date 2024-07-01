@@ -14,19 +14,13 @@ const HeroSection = () => {
       
       {/* Content overlay */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center">
-        <div className="bg-white bg-opacity-85  p-6 rounded-lg shadow-lg max-w-4xl w-full">
-          <form className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="bg-white bg-opacity-85 p-6 rounded-lg shadow-lg max-w-4xl w-full">
+          <form className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
-              <label className="font-bold block text-sm text-orange-500 mb-1">MUNICIPALITY</label>
+              <label className="font-bold block text-sm text-orange-500 mb-1">CHOOSE COURT</label>
               <select className="w-full border border-gray-300 rounded-md px-3 py-2">
-                <option>Ekali</option>
-                {/* Add more options here */}
-              </select>
-            </div>
-            <div>
-              <label className="font-bold block text-sm text-orange-500 mb-1">CHOOSE SPORT</label>
-              <select className="w-full border border-gray-300 rounded-md px-3 py-2">
-                <option>Tennis</option>
+                <option>Lapanagan 1</option>
+                <option>Lapanagan 2</option>
                 {/* Add more options here */}
               </select>
             </div>
